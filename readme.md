@@ -2,7 +2,12 @@
 
 ## Quickstart
 
-## Train
+### Preprocess
+```sh
+--path_in=../wav --extension=.wav --sr=22050 --path_out=../dat/pt/vctk
+```
+
+### Train
 ```sh
 --sr=22050 --path_data=../dat/pt/vctk/ --model=blow --base_fn_out=../res/vctk/blow/ --sbatch=20
 ```
