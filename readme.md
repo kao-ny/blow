@@ -1,5 +1,20 @@
 # Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion
 
+## Quickstart
+
+### Synthesis
+- base_fn_model
+- path_out
+- force_source_speaker
+- force_target_speaker
+
+```python
+mkdir res/vctk/blow/audio/
+python synthesize.py --base_fn_model=../res/vctk/blow/ --path_out=../res/vctk/blow/audio/ --convert --force_source_speaker=s001 --force_target_speaker=s002
+```
+
+---
+
 ## Info
 
 ### Abstract
